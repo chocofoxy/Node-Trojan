@@ -1,0 +1,21 @@
+{
+  "name": "node_rat",
+  "version": "1.0.0",
+  "description": "Node js Remote Access Trojan",
+  "main": "server.js",
+  "scripts": {
+    "build": "node build.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "create-nodew-exe": "^1.0.6",
+    "express": "^4.17.1",
+    "pkg": "^4.4.8",
+    "request-promise": "^4.2.5",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "upx": "^1.0.6"
+  }
+}
